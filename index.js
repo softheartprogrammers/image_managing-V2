@@ -7,6 +7,10 @@ import bodyParser  from "body-parser";
 dotenv.config()
 
 
+app.use(bodyParser.json({limit : "50mb"}));
+
+
+
 
 
 
